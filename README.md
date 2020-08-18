@@ -48,8 +48,8 @@ If you provide the name of Folder, the repository will be cloned inside it.
 `git push -u origin <branch_name>`
 
 #### Pull a remote branch (test) not on local and move to that branch:
-`git fetch origin test:test` \
-`git checkout test`
+`git fetch origin remote_branch_name:local_branch_name` \
+`git checkout local_branch_name`
 
 #### Delete a branch on your local filesystem :
 `git branch -d <branch_name>`
@@ -67,3 +67,7 @@ If you provide the name of Folder, the repository will be cloned inside it.
 
 - Undo all changes: \
 `git reset --hard`
+
+#### View history of commits:
+`git log` \
+`git log --oneline`
