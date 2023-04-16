@@ -71,3 +71,6 @@ If you provide the name of Folder, the repository will be cloned inside it.
 #### View history of commits:
 `git log` \
 `git log --oneline`
+
+#### Check file names that were modified:
+`git diff --stat`
