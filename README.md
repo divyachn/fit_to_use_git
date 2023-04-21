@@ -48,7 +48,9 @@ If you provide the name of Folder, the repository will be cloned inside it.
 `git push -u origin <branch_name>`
 
 #### How to create a Pull Request
-Please refer to this [How to create a pull request in GitHub](https://opensource.com/article/19/7/create-pull-request-github)
+Please refer to this [How to create a pull request in GitHub](https://opensource.com/article/19/7/create-pull-request-github).
+
+Also, if you want to continue working on top a pull request, follow instructions mentioned [here](https://stackoverflow.com/questions/70176881/creating-a-github-pull-request-and-branch-based-on-another-pull-request-and-b).
 
 #### Pull a remote branch (test) not on local and move to that branch:
 `git fetch origin remote_branch_name:local_branch_name` \
