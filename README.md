@@ -72,6 +72,7 @@ Also, if you want to continue working on top a pull request, follow instructions
 
 - Undo all changes: \
 `git reset --hard`
+`git checkout .`
 
 #### View history of commits:
 `git log` \
